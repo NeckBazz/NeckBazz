@@ -10,69 +10,69 @@ body{
 background:black;
 color:white;
 font-family:Arial, sans-serif;
-text-align:center;
+margin:0;
 height:100vh;
 display:flex;
 flex-direction:column;
 align-items:center;
 justify-content:center;
-margin:0;
+text-align:center;
 }
+
+/* texto superior */
 
 .toptext{
 position:absolute;
-top:40px;
+top:30px;
 font-size:22px;
 }
 
+/* titulo */
+
 h1{
-font-size:80px;
-margin-top:70px;
-margin-bottom:30px;
+font-size:70px;
+margin-top:40px;
+margin-bottom:40px;
 animation:fadeColor 6s infinite alternate;
 }
+
+/* animacion */
 
 @keyframes fadeColor{
 0%{color:white;}
 100%{color:#888;}
 }
 
+/* contenedor botones */
+
 .botones{
 display:flex;
 flex-direction:column;
 gap:25px;
-margin-top:10px;
 }
 
+/* botones */
+
 .boton{
+width:260px;
+height:90px;
 display:flex;
 align-items:center;
 justify-content:center;
-width:260px;
-height:90px;
-border-radius:14px;
 border:2px solid white;
-transition:transform 0.2s;
+border-radius:14px;
 }
-
-.boton:hover{
-transform:scale(1.07);
-}
-
-.icono{
-height:50px;
-}
-
-/* YouTube */
 
 .youtube{
 background:white;
 }
 
-/* TikTok */
-
 .tiktok{
 background:black;
+}
+
+.icono{
+height:45px;
 }
 
 </style>
